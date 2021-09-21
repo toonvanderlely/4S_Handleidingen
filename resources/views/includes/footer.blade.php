@@ -2,6 +2,7 @@
 <footer>
 	© {{ __('misc.copyright') }}
 </footer>
+<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
 
 <!-- analytics code -->              

@@ -10,11 +10,10 @@
 @include('includes.navbar')
 
 <div class="container">
-    <div class="row">
 
         <div class="col-md-8">
             @include('includes.header')
-
+            <div class="center">
             <ul class="breadcrumb">
                 <li><a href="/" title="{{ __('misc.home_alt') }}"
                        alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a></li>
@@ -33,10 +32,10 @@
 				</li>
                 @yield('breadcrumb')
             </ul>
-
+        </div>
+        <div class="row">
             @include('includes.footer')
         </div>
-
     </div>
 
 
